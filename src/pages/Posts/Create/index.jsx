@@ -27,7 +27,7 @@ const CreatePost = () => {
         return navigate("/");
       } catch (error) {
         setIsLoading(false);
-        message.error(error.message);
+        message.error(error.message + "backendda xatolik yuz berdi");
         console.log(error);
       }
     } else {
